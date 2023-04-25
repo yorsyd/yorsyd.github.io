@@ -92,15 +92,13 @@
   min-height: 100vh;
   display: flex;
   position: relative;
-  background-image: url("head.jpg");
-  background-repeat: no-repeat;
+  background: linear-gradient(to top, #010101cc, #010101cc), url("head.jpg") no-repeat top center ;
   background-size: cover;
   background-position: center;
 }
 
 .hero .content {
   padding: 1.4rem 7%;
-  max-width: 60rem;
 }
 
 .hero .content h1 {
@@ -116,11 +114,10 @@
 }
 
 .hero .content p {
+  color: var(--primary);
   text-transform: capitalize;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   margin-top: 1rem;
-  line-height: 1.4rem;
-  font-weight: 100;
+  line-height: 1.0rem;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-  mix-blend-mode: difference;
 }
