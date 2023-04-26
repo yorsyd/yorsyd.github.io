@@ -1,0 +1,194 @@
+/*first-page*/
+.first{
+  min-height: 100vh;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  background: linear-gradient(to top, #ffffffcc, #ffffffcc), url("../img/head.jpg") no-repeat top center ;
+  background-size: cover;
+  background-position: center;
+}
+
+.first::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  bottom: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 8%,
+    rgba(255, 255, 255, 0) 50%
+  );
+}
+
+.first .content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.first .content h1 {
+  text-transform: uppercase;
+  font-size: 5em;
+  color: var(--primary);
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+  line-height: 1.2;
+}
+
+.first .content p {
+  color: black;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  margin-top: 0.6rem;
+  line-height: 1.0rem;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+}
+
+/*about-page*/
+.about{
+  height: 542px;
+}
+
+.about .about-image{
+  padding: 24px;
+  padding-top: 100px;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.about .about-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.about .about-text{
+  padding: 24px;
+  padding-left: 0px;
+  padding-top: 100px;
+  text-align: justify;
+  float: left;
+  width: 50%;
+}
+
+.about .about-text h2 span{
+  color: var(--primary);
+}
+
+/*kategori*/
+.kategori{
+  padding-left: 132px;
+  padding-right: 132px;
+  height: 520px;
+  width: 100%;
+  background-color: black;
+}
+
+.kategori .head{
+  height: 60px;
+}
+
+.kategori .head h2{
+  text-transform: uppercase;
+  padding-top: 20px;
+  text-align: center;
+  color: var(--primary);
+}
+
+.kategori .kotak{
+  float: left;
+  width: 260px;
+  height: 404px;
+  margin: 10px;
+  margin-top: 26px;
+  background-color: white;
+}
+
+.kategori .kotak img{
+  width: 100%;
+  height: 100%;
+}
+
+.kategori .kotak .btn {
+  width: 120px;
+  position: absolute;
+  transform: translate(-190px, 340px);
+  -ms-transform: translate(-190px, 340px);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 12px;
+  padding: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.kategori .kotak .btn:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+}
+
+/*rekomendasi*/
+.rekomendasi{
+  padding-left: 132px;
+  padding-right: 132px;
+  height: 954px; /*1904px*/
+  width: 100%;
+  background-color: white;
+}
+
+.rekomendasi .head{
+  height: 60px;
+}
+
+.rekomendasi .head h2{
+  text-transform: uppercase;
+  padding-top: 20px;
+  text-align: center;
+  color: black;
+}
+
+.rekomendasi .kotak-besar-atas{
+  float: left;
+  width: 416px;
+  height: 404px;
+  margin: 10px;
+  margin-top: 26px;
+  background-color: ghostwhite;
+}
+
+.rekomendasi .kotak-besar-bawah{
+  float: right;
+  width: 416px;
+  height: 404px;
+  margin: 10px;
+  margin-top: 26px;
+  background-color: ghostwhite;
+}
+
+.rekomendasi .kotak-kecil-atas{
+  float: left;
+  width: 210px;
+  height: 404px;
+  margin: 10px;
+  margin-top: 26px;
+  background-color: white;
+}
+
+.rekomendasi .kotak-kecil-bawah{
+  float: right;
+  width: 210px;
+  height: 404px;
+  margin: 10px;
+  margin-top: 26px;
+  background-color: white;
+}
+
+.rekomendasi img{
+  width: 100%;
+  height: 100%;
+}
