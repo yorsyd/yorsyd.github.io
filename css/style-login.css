@@ -147,7 +147,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 10%;
     margin-right: 20%;
-    margin-top: -24%;
+    margin-top: -30%;
     width: 5;
     border: 1px solid #dedede;
     backdrop-filter: blur(0.5px);
@@ -161,7 +161,7 @@ body {
 /* Untuk mengatur gaya heading */
 h1 {
     font-size: 1.2rem;
-    margin-bottom: 10%;
+    padding: 5%;
     color: #fcf4f4;
 }
 
@@ -177,7 +177,7 @@ h1 {
 label {
     font-size: 1.0em;
     display: block;
-    margin-bottom: 5%;
+    margin-bottom: -5%;
     text-align: center;
     border-radius: 10px;
 }
@@ -197,7 +197,7 @@ input[type=email] {
     background-size: 30px;
     background-position: 5px 5px;
     background-repeat: no-repeat;
-    padding-left: 40px;
+    padding-left: 50px;
     border-radius: 10px;
 }
 
@@ -240,7 +240,7 @@ input[type=reset] {
 }
 
 button {
-    margin-top: -0%;
+    margin-top: 2%;
     background-color: #3a0808;
     color: rgb(243, 170, 60);
     padding: 4px 4px;
@@ -259,6 +259,10 @@ a {
 }
 
 /* Untuk mengatur gaya pesan di bawah button */
+.Belum {
+    padding: 5%;
+}
+
 p {
     margin-top: 10px;
     color: #ffffff;
@@ -297,12 +301,12 @@ p {
     }
 
     .container {
-        max-width: 30%;
+        max-width: 35%;
         width: 350px;
         border-radius: 10px;
         text-align: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-top: -54%;
+        margin-top: -45%;
         margin-left: 5%;
         margin-right: 20%;
         margin-bottom: 20%;
