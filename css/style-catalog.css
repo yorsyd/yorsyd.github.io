@@ -10,28 +10,48 @@ h3{
     padding-top: 10px;
 }
 a{
+    text-decoration: none10
+}
+.navbar {
+    background-color: #ff9f43;
+    padding: 30px;
+    display: flex;
+    justify-content: right;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.navbar a {
     text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.navbar a:hover {
+    color: #555;
 }
 .gallery{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 0;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 50px 5vw;
 }
 .content{
-    width: 20%;
-    margin: 15px;
-    box-sizing: border-box;
-    float: left;
+    flex: 0 0 22%;
+    margin-bottom: 30px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     padding-top: 10px;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
-    0 10px 10px rgba(0,0,0,0.22);
-    transition: .4s;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: 0.4s;
     background: #f2f2f2;
 }
 .content:hover{
@@ -45,6 +65,7 @@ img{
     text-align: center;
     margin: 0 auto;
     display: block;
+    padding-bottom: 10px;
 }
 p{
     text-align: center;
@@ -52,9 +73,11 @@ p{
     padding: 0 8px;
 }
 h6{
+    margin: 20px;
     font-size: 26px;
     text-align: center;
     color: #222f3e;
+
 }
 ul{
     list-style: none;
@@ -88,25 +111,65 @@ button{
     outline: none;
     cursor: pointer;
     margin-top: 5px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 .beli-1{
-    background: #2183a2;
+    background: #ff9f43;
     width: 100%;
     height: 60px;
 }
 .beli-2{
-    background: #3b3e6e;
+    background: #ff9f43;
     width: 100%;
     height: 60px;
 }
 .beli-3{
-    background: #0b0b0b;
+    background: #ff9f43;
     width: 100%;
     height: 60px;
 }
 .beli-4{
+    background: #ff9f43;
+    width: 100%;
+    height: 60px;
+}
+.beli-5{
+    background: #ff9f43;
+    width: 100%;
+    height: 60px;
+}
+.beli-6{
+    background: #ff9f43;
+    width: 100%;
+    height: 60px;
+}
+.beli-7{
+    background: #ff9f43;
+    width: 100%;
+    height: 60px;
+}
+.beli-8{
+    background: #ff9f43;
+    width: 100%;
+    height: 60px;
+}
+.beli-9{
+    background: #ff9f43;
+    width: 100%;
+    height: 60px;
+}
+.beli-10{
+    background: #ff9f43;
+    width: 100%;
+    height: 60px;
+}
+.beli-11{
+    background: #ff9f43;
+    width: 100%;
+    height: 60px;
+}
+.beli-12{
     background: #ff9f43;
     width: 100%;
     height: 60px;
@@ -119,5 +182,8 @@ button{
 @media(max-width:750px){
     .content{
         width: 100%;
+    }
+    .gallery{
+        margin: 50px 20px;
     }
 }
