@@ -4,10 +4,10 @@
     --envy: rgba(143,169,152,1);
     --white : rgba(255,255,255,1);
 
-    --font-size-m: 16px;
-    --font-size-l: 20px;
-    --font-size-xl: 36px;
-    --font-size-xxl: 100px;
+    --font-size-m: 50px;
+    --font-size-l: 60px;
+    --font-size-xl: 80px;
+    --font-size-xxl: 190px;
 
     --font-family-poppins: "Poppins";
 }
