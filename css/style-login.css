@@ -20,18 +20,18 @@ body{
     visibility: hidden;
 }
 
-.overlap-group1 {
+td .overlap-group1 {
     align-items: flex-start;
     background-color: var(--envy);
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     margin-top: 10%;
-    min-height: 39%;
-    padding: 5.25% ;
-    border-top-left-radius: 2%;
-    border-bottom-left-radius: 2%;
-    width: 30%;
+    margin-left: -40%;
+    min-height: 0%;
+    padding: 5% ;
+    border-radius: 5px;
+    width: 100% ;
 }
 
 .overlap-group {
@@ -42,32 +42,36 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 10%;
+    margin-left: 30%;
     min-height: 39%;
-    padding: 5.9% ;
-    border-top-right-radius: 2%;
-    border-bottom-right-radius: 2%;
-    width: 30%;
+    padding: 0% ;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    width: 110%;
+    height: 0%;
 }
 
-.password{
-    padding-top: 5%;
+.username, .password{
+    padding-top: 3%;
+    margin-left: 10px;
 }
 
 .overlap-group-container {
-    display: flex;
+    display: ;
     justify-content: space-between;
  }
  
- .overlap-group1,
- .overlap-group {
-    width: 50%; /* ubah lebar sesuai kebutuhan */
+ td .overlap-group1,
+td  .overlap-group {
+    width: %; /* ubah lebar sesuai kebutuhan */
  }
  
 
 input[type=text],input[type=password]{
-    width: 100%;
+    width: 70%;
     font-size: var(--font-size-l);
     padding: 10px;
+    margin-left: 15px;
     border-radius: 3px;
     border-color: var(--envy);
    
@@ -76,6 +80,8 @@ input[type=text],input[type=password]{
     font-family: var(--font-family-poppins);
     font-size: var(--font-size-l);
     color: var(--envy);
+    margin-top: 30px;
+    margin-left: 20px;
 }
 
 .button-login{
@@ -88,6 +94,7 @@ button{
     display: flexbox;
     width: 170px;
     margin-top: 20px;
+    margin-bottom :20px ;
     border-radius: 5px;
     background: transparent;
     border-color: var(--envy);
@@ -109,16 +116,16 @@ label .test{
 }
 h1 {
     color: var(--white);
-    margin-top: -15px;
+    margin-right: 50px;
     font-family: var(--font-family-poppins);
     font-size: var(--font-size-xxl);
     font-weight: 600px;
     letter-spacing: 0;
-    line-height: 131px;
+    line-height: 110px;
 }
 
 p{
-    margin-bottom: -4px;
+    margin-bottom: -10px;
     color: var(--white);
     font-family: var(--font-family-poppins);
     font-size: var(--font-size-l);
