@@ -1,0 +1,32 @@
+:root {
+    --black : rgba(0,0,0,1);
+    --gravel : rgba(71,71,71,1);
+    --envy: rgba(143,169,152,1);
+    --white : rgba(255,255,255,1);
+
+    --font-size-m: 16px;
+    --font-size-l: 20px;
+    --font-size-xl: 36px;
+    --font-size-xxl: 130px;
+
+    --font-family-poppins: "Poppins";
+}
+.all-contrainer {
+    font-family: var(--font-family-poppins);
+}
+
+.poppins-normal-envy-16px{
+    color: var(--envy);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-normal-gravel-16px{
+    color: var(--gravel);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
