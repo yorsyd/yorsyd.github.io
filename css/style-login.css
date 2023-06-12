@@ -1,125 +1,150 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,600");
-body{
-    background-color:#eff3f0;
+
+body {
+  background-color: #eff3f0;
 }
+
 .screen {
-    align-items: flex-start;
-    border: 1px none;
-    display: flex;
-    height: 990px;
-    padding: 0 270px;
-    width: 60%;
-    position: absolute;
-    top: 85px;
-    left: 6%;
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  height: 1024px;
+  padding: 0 270px;
+  width: 60%;
+  position: absolute;
+  top: 85px;
+  left: 6%;
 }
 
-.hidden,
+.login {
+  margin: 14% 25%;
+  max-width: 100%;
+}
+
+/* .hidden,
 .hidden * {
-    pointer-events: none;
-    visibility: hidden;
+  pointer-events: none;
+  visibility: hidden;
+} */
+
+td .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--envy);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10%;
+  margin-top: 10%;
+  margin-left: -40%;
+  min-height: 0%;
+  border-radius: 5px;
+  width: 1000px;
+  height: 800px;
 }
 
-.overlap-group1 {
-    align-items: flex-start;
-    background-color: var(--envy);
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin-top: 10%;
-    min-height: 39%;
-    padding: 5.25% ;
-    border-top-left-radius: 2%;
-    border-bottom-left-radius: 2%;
-    width: 30%;
+td .overlap-group {
+  align-items: flex-star t;
+  background-color: var(--white);
+  border: 5px solid;
+  border-color: var(--envy);
+  height: auto;
+  padding: 10%;
+  margin-top: 9%;
+  margin-left: -40%;
+  min-height: 0%;
+  padding: 5%;
+  border-radius: 5px;
+  width: 950px;
+  height: 894px;
 }
 
-.overlap-group {
-    align-items: flex-start;
-    background-color: var(--white);
-    border: 5px solid;
-    border-color:var(--envy) ;
-    display: flex;
-    flex-direction: column;
-    margin-top: 10%;
-    min-height: 39%;
-    padding: 5.9% ;
-    border-top-right-radius: 2%;
-    border-bottom-right-radius: 2%;
-    width: 30%;
+.login-1,
+.username,
+.password {
+  margin-left: 150px;
+  margin-bottom: 1%;
 }
 
-.password{
-    padding-top: 5%;
+.password {
+  margin-top: 50px;
 }
 
 .overlap-group-container {
-    display: flex;
-    justify-content: space-between;
- }
- 
- .overlap-group1,
- .overlap-group {
-    width: 50%; /* ubah lebar sesuai kebutuhan */
- }
- 
-
-input[type=text],input[type=password]{
-    width: 100%;
-    font-size: var(--font-size-l);
-    padding: 10px;
-    border-radius: 3px;
-    border-color: var(--envy);
-   
-}
-.login-1{
-    font-family: var(--font-family-poppins);
-    font-size: var(--font-size-l);
-    color: var(--envy);
+  display: f;
+  justify-content: space-between;
 }
 
-.button-login{
-    background-color: var(--envy);
-    position: static;
-    margin-left: 40px; 
+input[type="text"],
+input[type="password"] {
+  width: 70%;
+  font-size: var(--font-size-l);
+  padding: 10px;
+  margin-left: 15px;
+  margin-top: 2%;
+  border-radius: 3px;
+  border-color: var(--envy);
 }
 
-button{
-    display: flexbox;
-    width: 170px;
-    margin-top: 20px;
-    border-radius: 5px;
-    background: transparent;
-    border-color: var(--envy);
-}
-label .test{
-    font-style: normal;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-left: 1px;
-    min-height: 24px;
-}
-.overlap-group-contrainer{
-    position: static;
-    margin-top: 10%;
-    margin-left: 5%;
-}
-.overlap-group2{
-    width: 100%;
-}
-h1 {
-    color: var(--white);
-    margin-top: -15px;
-    font-family: var(--font-family-poppins);
-    font-size: var(--font-size-xxl);
-    font-weight: 600px;
-    letter-spacing: 0;
-    line-height: 131px;
+.login-1 {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  color: var(--envy);
+  margin-top: 0px;
 }
 
-p{
-    margin-bottom: -4px;
-    color: var(--white);
-    font-family: var(--font-family-poppins);
-    font-size: var(--font-size-l);
+.button-login {
+  background-color: var(--envy);
+  position: static;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+button {
+  display: flexbox;
+  width: 43%;
+  margin-top: 0 px;
+  margin-bottom: px;
+  border-radius: 5px;
+  background: transparent;
+  border-color: var(--envy);
+}
+
+label .test {
+  font-style: normal;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  min-height: 24px;
+}
+
+.overlap-group-contrainer {
+  position: static;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.overlap-group2 {
+  width: 100%;
+}
+
+h1,
+.wel-come {
+  color: var(--white);
+  margin-right: 50px;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-weight: 600px;
+  letter-spacing: px;
+  word-spacing: px;
+  line-height: 200px;
+  display: inline-block;
+  /* atau display: block */
+}
+
+p,
+.how-are-you {
+  margin-bottom: 23%;
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
 }
