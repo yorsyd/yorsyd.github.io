@@ -49,7 +49,7 @@ td .overlap-group {
   border-color: var(--envy);
   height: auto;
   padding: 10%;
-  margin-top: 9%;
+  margin-top: 10%;
   margin-left: -40%;
   min-height: 0%;
   padding: 5%;
@@ -69,6 +69,25 @@ td .overlap-group {
   margin-top: 50px;
 }
 
+.overlap-group-container {
+  display: f;
+  justify-content: space-between;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 70%;
+  font-size: var(--font-size-l);
+  padding: 10px;
+  margin-left: 15px;
+  margin-top: 2%;
+  border-radius: 3px;
+  border-color: var(--envy);
+}
+
+.password {
+  margin-top: 50px;
+}
 .overlap-group-container {
   display: f;
   justify-content: space-between;
@@ -127,7 +146,8 @@ label .test {
   width: 100%;
 }
 
-h1,
+
+h1, 
 .wel-come {
   color: var(--white);
   margin-right: 50px;
@@ -147,4 +167,5 @@ p,
   color: var(--white);
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-m);
+
 }
