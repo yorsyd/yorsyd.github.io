@@ -70,13 +70,12 @@
 }
 
 .about .about-image img{
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .about .about-text{
-  padding: 24px;
-  padding-left: 0px;
+  padding-left: 20px;
   padding-top: 100px;
   text-align: justify;
   float: left;
@@ -144,7 +143,7 @@
 .rekomendasi{
   padding-left: 132px;
   padding-right: 132px;
-  height: /*954px*/ 1860px;
+  height: 1420px;
   width: 100%;
   background-color: white;
 }

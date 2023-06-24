@@ -52,6 +52,7 @@ body{
 }
 
 .navbar .navbar-nav a {
+  font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--primary);
