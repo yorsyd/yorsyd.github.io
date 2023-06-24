@@ -1,4 +1,5 @@
 body{
+    padding-top: 80px;
     margin: 0;
     font-family: sans-serif;
     background: #f2f2f2;
@@ -11,30 +12,6 @@ h3{
 }
 a{
     text-decoration: none10
-}
-.navbar {
-    background-color: #ff9f43;
-    padding: 30px;
-    display: flex;
-    justify-content: right;
-}
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-.navbar li {
-    display: inline-block;
-    margin-right: 20px;
-}
-.navbar a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-.navbar a:hover {
-    color: #555;
 }
 .gallery{
     display: flex;
@@ -59,7 +36,7 @@ a{
     0 3px 6px rgba(0,0,0,0.23);
     transform: translate(0px, -8px);
 }
-img{
+.gallery img{
     width: 200px;
     height: 200px;
     text-align: center;
@@ -106,7 +83,7 @@ button{
     font-size: 24px;
     color: #fff;
     width: 100%
-    padding:15px;
+    padding: 15px;
     border: 0;
     outline: none;
     cursor: pointer;
