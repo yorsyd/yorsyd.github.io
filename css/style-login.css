@@ -114,6 +114,7 @@ input[type="password"] {
   position: relative;
   margin-left: -10px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 button {
