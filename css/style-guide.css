@@ -6,10 +6,10 @@
     --orange: #F7B801;
 
     /* Change font size values */
-    --font-size-m: calc(30px + (18 - 14) * ((100vw - 320px) / (1920 - 320)));
-    --font-size-l: calc(40px + (20 - 16) * ((100vw - 320px) / (1920 - 320)));
-    --font-size-xl: calc(70px + (32 - 24) * ((100vw - 320px) / (1920 - 320)));
-    --font-size-xxl: calc(150px + (64 - 48) * ((100vw - 320px) / (1920 - 320)));
+    --font-size-m: calc(18px + (18 - 14) * ((100vw - 320px) / (1920 - 320)));
+    --font-size-l: calc(28px + (20 - 16) * ((100vw - 320px) / (1920 - 320)));
+    --font-size-xl: calc(38px + (32 - 24) * ((100vw - 320px) / (1920 - 320)));
+    --font-size-xxl: calc(94px + (64 - 48) * ((100vw - 320px) / (1920 - 320)));
 
     --font-family-poppins: "Poppins", sans-serif;
 }
