@@ -1,73 +1,79 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,600");
 
 body {
-  background-color: #eff3f0;
   display: flex;
   height: 100vh;
   justify-content: center;
   align-items: center;
+  background-image: url('../img/Login4.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 
 .screen {
-  max-width: 1020px;
-  align-items: flex-start;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
   border: 1px none;
-  display: flex;
-  padding: 0 0x;
+  display: flexbox;
+  padding: 30% 50%;
   width: 100%;
   position: relative;
+  left: -50%;
 }
-
 
 .login {
   width: 100%;
   right: 7%;
 }
 
-/* .hidden,
-.hidden * {
-  pointer-events: none;
-  visibility: hidden;
-} */
-
 .overlap-group1 {
+  background-color: var(--orange);
   display: flex;
   flex-direction: column;
-  background-color: var(--envy);
-  padding: 3vh;
-  padding-top: 17%;
+  padding: 5vh;
+  padding-top: 9%;
   margin-top: 2%;
   margin-right: 10%;
   border-radius: 5px;
   width: 100%;
+  height: 100%;
 }
 
-
 .overlap-group {
-  align-items: center;
   background-color: var(--white);
+  align-items: center;
   display: flex;
   flex-direction: column;
   width: 100%;
-  border: 4px solid;
-  border-color: var(--envy);
+  outline: 8px solid;
+  outline-color: var(--orange);
   min-height: 0%;
   margin-top: 2%;
-  padding: 8vh;
-  padding-bottom: 23%;
+  padding: 3vh;
+  padding-bottom: 24%;
   border-radius: 5px;
+  height: 100%;
 }
 
-td {
+.gabung {
+  height: 100%;
+}
 
-  width: 100%;
+.overlap-group2 {
+  height: 100%;
+}
+
+.username,
+.password {
+  height: 100%;
 }
 
 .login-1,
 .username,
 .password {
-  margin-left: 0px;
+  position: relative;
+  margin-right: 0px;
   margin-bottom: 1%;
 }
 
@@ -79,16 +85,15 @@ td {
 input[type="text"],
 input[type="password"] {
   width: 100%;
+  position: relative;
   font-size: var(--font-size-l);
   padding: 10px;
   margin-top: 3%;
   border-radius: 3px;
-  border-color: var(--envy);
+  border-color: var(--orange);
 }
 
-.password {
-  margin-top: 50px;
-}
+
 
 .overlap-group-container {
   display: flex;
@@ -97,13 +102,13 @@ input[type="password"] {
 
 .login-1 {
   font-family: var(--font-family-poppins);
-  font-size: var(--font-size-l);
-  color: var(--envy);
-  margin-top: 0px;
+  font-size: var(--font-size-xl);
+  color: var(--gravel);
+  margin-top: 2px;
 }
 
 .button-login {
-  background-color: var(--envy);
+  background-color: var(--black);
   position: relative;
   margin-left: -20px;
   margin-top: 10px;
@@ -121,7 +126,7 @@ button {
   border-radius: 5px;
   /* background: transparent; */
   color: var(--white);
-  border-color: var(--envy);
+  border-color: var(--white);
 }
 
 
@@ -156,71 +161,22 @@ label .test {
 h1,
 .wel-come {
   color: var(--white);
-  margin-right: 50px;
+  margin-right: 80px;
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-xxl);
   font-weight: 100%;
-  letter-spacing: px;
-  word-spacing: px;
-  line-height: 60%;
+  letter-spacing: 1px;
+  word-spacing: 40px;
+  line-height: 100%;
   display: inline-block;
   /* atau display: block */
 }
 
 p,
 .how-are-you {
-  margin-bottom: 25%;
+  margin-top: 24.7%;
   color: var(--white);
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-m);
-
-}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile: */
-
-  .screen {
-    display: ;
-    border: 1px solid black;
-    height: 100px;
-    width: 200px;
-  }
-
-  body {
-    background-color: #eff3f0;
-    display: block;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-  }
-
-  table {
-    display: block;
-  }
-
-  .overlap-group1 {
-    background-color: var(--envy);
-    display: block;
-    flex-direction: column;
-    padding: 7%;
-    margin-top: 10%;
-    min-height: 0%;
-    border-radius: 5px;
-    width: 100%;
-  }
-
-  .overlap-group {
-    background-color: var(--white);
-    display: block;
-    flex-direction: column;
-    border: 4px solid;
-    border-color: var(--envy);
-    margin-top: 10%;
-    min-height: 0%;
-    padding: 7%;
-    border-radius: 5px;
-    width: 100%;
-  }
-
 
 }

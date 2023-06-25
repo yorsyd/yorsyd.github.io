@@ -3,12 +3,13 @@
     --gravel: rgba(71, 71, 71, 1);
     --envy: rgba(143, 169, 152, 1);
     --white: rgba(255, 255, 255, 1);
+    --orange: #F7B801;
 
     /* Change font size values */
-    --font-size-m: calc(20px + (18 - 14) * ((100vw - 320px) / (1920 - 320)));
-    --font-size-l: calc(24px + (20 - 16) * ((100vw - 320px) / (1920 - 320)));
-    --font-size-xl: calc(50px + (32 - 24) * ((100vw - 320px) / (1920 - 320)));
-    --font-size-xxl: calc(108px + (64 - 48) * ((100vw - 320px) / (1920 - 320)));
+    --font-size-m: calc(30px + (18 - 14) * ((100vw - 320px) / (1920 - 320)));
+    --font-size-l: calc(40px + (20 - 16) * ((100vw - 320px) / (1920 - 320)));
+    --font-size-xl: calc(70px + (32 - 24) * ((100vw - 320px) / (1920 - 320)));
+    --font-size-xxl: calc(150px + (64 - 48) * ((100vw - 320px) / (1920 - 320)));
 
     --font-family-poppins: "Poppins", sans-serif;
 }
@@ -20,7 +21,7 @@
 }
 
 .poppins-normal-envy-16px {
-    color: var(--envy);
+    color: var(--gravel);
     font-size: var(--font-size-m);
     font-weight: 400;
     /* Change font weight to regular */
@@ -28,7 +29,7 @@
 }
 
 .poppins-normal-gravel-16px {
-    color: var(--gravel);
+    color: var(--white);
     font-size: var(--font-size-m);
     font-weight: 400;
     /* Change font weight to regular */
