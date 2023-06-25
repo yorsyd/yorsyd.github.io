@@ -11,7 +11,7 @@ body {
 }
 
 .screen {
-  max-width: 100%;
+  max-width: 50%;
   align-items: center;
   justify-content: center;
   border: 1px none;
@@ -31,7 +31,7 @@ body {
   background-color: var(--orange);
   display: flex;
   flex-direction: column;
-  padding: 5vh;
+  padding: 3vh;
   padding-top: 9%;
   margin-top: 2%;
   margin-right: 10%;
@@ -45,13 +45,15 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  outline: 8px solid;
+  width: 110%;
+  outline: 5px solid;
   outline-color: var(--orange);
-  min-height: 0%;
-  margin-top: 2%;
-  padding: 3vh;
-  padding-bottom: 24%;
+  min-height: 100%;
+  /* margin-top: %; */
+  padding: 2vh;
+  padding-top: 25%;
+  padding-bottom: 30%;
+  padding-right: 50%;
   border-radius: 5px;
   height: 100%;
 }
@@ -84,9 +86,9 @@ body {
 
 input[type="text"],
 input[type="password"] {
-  width: 100%;
+  width: 130%;
   position: relative;
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-m);
   padding: 10px;
   margin-top: 3%;
   border-radius: 3px;
@@ -104,14 +106,14 @@ input[type="password"] {
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-xl);
   color: var(--gravel);
-  margin-top: 2px;
+  top: 50%;
 }
 
 .button-login {
   background-color: var(--black);
   position: relative;
-  margin-left: -20px;
-  margin-top: 10px;
+  margin-left: -10px;
+  margin-top: 20px;
 }
 
 button {
@@ -121,8 +123,8 @@ button {
 button {
   display: flexbox;
   width: 50%;
-  margin-top: 0 px;
-  margin-bottom: 20px;
+  margin-top: px;
+  margin-bottom: 10px;
   border-radius: 5px;
   /* background: transparent; */
   color: var(--white);
@@ -165,7 +167,7 @@ h1,
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-xxl);
   font-weight: 100%;
-  letter-spacing: 1px;
+  letter-spacing: 20px;
   word-spacing: 40px;
   line-height: 100%;
   display: inline-block;
@@ -174,7 +176,7 @@ h1,
 
 p,
 .how-are-you {
-  margin-top: 24.7%;
+  margin-top: 20.7%;
   color: var(--white);
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-m);
