@@ -42,8 +42,8 @@ a{
     transform: translate(0px, -8px);
 }
 .gallery img{
-    width: 200px;
-    height: 200px;
+    max-width: 100%;
+    height: auto;
     text-align: center;
     margin: 0 auto;
     display: block;
@@ -102,7 +102,7 @@ button{
     height: 60px;
 }
 
-@media(max-width:1000px){
+/* @media(max-width:1000px){
     .content{
         width: 45%;
     }
@@ -114,4 +114,4 @@ button{
     .gallery{
         margin: 50px 20px;
     }
-}
+} */
