@@ -33,7 +33,7 @@
     <tbody>
         <?php
           include "connect.php";
-          $query = mysqli_query($conn, "Select * From jual");
+          $query = mysqli_query($conn, "Select * From jual1");
           while ($data = mysqli_fetch_array($query)){
             echo "<tr>";
               echo "<td>" . $data['id'] . "</td>";
