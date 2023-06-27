@@ -9,12 +9,12 @@
 <body>
 
 <header>
-  <h1>Dashboard Penjualan Barang</h1>
+  <h1>UrbaneThreads</h1>
 </header>
 
 <div class="sidebar">
   <a href="dashboard.php">Data Penjualan</a>
-  <a href="#">Profil Toko</a>
+  <a href="profil.html">Profil Toko</a>
 </div>
 
 <div class="content">

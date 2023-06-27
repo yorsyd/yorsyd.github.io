@@ -3,7 +3,7 @@ header {
   background-color: #F7B801;
   color: white;
   padding: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 /* style untuk sidebar */
@@ -29,7 +29,7 @@ header {
 /* style untuk menu ketika hover di sidebar */
 .sidebar a:hover {
   background-color: #ddd;
-  color: black;
+  color: #F7B801;
 }
 
 /* style untuk konten utama */
