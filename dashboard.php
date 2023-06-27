@@ -31,19 +31,19 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
         <?php
           include "connect.php";
           $query = mysqli_query($conn, "Select * From jual");
           while ($data = mysqli_fetch_array($query)){
-            echo "<td>" . $data['id'] . "</td>";
-            echo "<td>" . $data['nama'] . "</td>";
-            echo "<td>" . $data['jumlah'] . "</td>";
-            echo "<td>" . $data['harga'] . "</td>";
-            echo "<td>" . $data['total'] . "</td>"; 
+            echo "<tr>";
+              echo "<td>" . $data['id'] . "</td>";
+              echo "<td>" . $data['nama'] . "</td>";
+              echo "<td>" . $data['jumlah'] . "</td>";
+              echo "<td>" . $data['harga'] . "</td>";
+              echo "<td>" . $data['total'] . "</td>"; 
+            echo "</tr> ";
           };
         ?>
-      </tr> 
     </tbody>
   </table>
 </div>
