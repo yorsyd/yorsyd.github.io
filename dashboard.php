@@ -13,9 +13,7 @@
 </header>
 
 <div class="sidebar">
-  <a href="#">Dashboard</a>
   <a href="#">Data Penjualan</a>
-  <a href="#">Laporan Bulanan</a>
   <a href="#">Profil Toko</a>
 </div>
 
@@ -25,31 +23,27 @@
   <table>
     <thead>
       <tr>
-        <th>No.</th>
+        <th>ID</th>
         <th>Nama Barang</th>
         <th>Jumlah Terjual</th>
-        <th>Total Pendapatan</th>
+        <th>Harga</th>
+        <th>Total Harga</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>1</td>
-        <td>Minuman Cola</td>
-        <td>1000</td>
-        <td>IDR 10.000.000</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>Mie Instan</td>
-        <td>500</td>
-        <td>IDR 5.000.000</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Biskuit ABC</td>
-        <td>800</td>
-        <td>IDR 8.000.000</td>
-      </tr>
+        <?php
+          include "connect.php";
+          $query = mysqli_query($conn, "Select * From jual");
+          while ($data = mysqli_fetch_array($query)){
+            echo "<td>" . $data['id'] . "</td>";
+            echo "<td>" . $data['nama'] . "</td>";
+            echo "<td>" . $data['jumlah'] . "</td>";
+            echo "<td>" . $data['harga'] . "</td>";
+            echo "<td>" . $data['total'] . "</td>"; 
+          };
+        ?>
+      </tr> 
     </tbody>
   </table>
 </div>
