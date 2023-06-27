@@ -23,17 +23,17 @@
   <table>
     <thead>
       <tr>
-        <th>ID</th>
+        <th style="width: 2%">ID</th>
         <th>Nama Barang</th>
-        <th>Jumlah Terjual</th>
-        <th>Harga</th>
-        <th>Total Harga</th>
+        <th style="width: 5%">Terjual</th>
+        <th style="width: 15%">Harga</th>
+        <th style="width: 15%">Total Harga</th>
       </tr>
     </thead>
     <tbody>
         <?php
           include "connect.php";
-          $query = mysqli_query($conn, "Select * From jual");
+          $query = mysqli_query($conn, "Select * From jual1");
           while ($data = mysqli_fetch_array($query)){
             echo "<tr>";
               echo "<td>" . $data['id'] . "</td>";
