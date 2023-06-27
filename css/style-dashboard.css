@@ -51,6 +51,10 @@ td, th {
   padding: 8px;
 }
 
+th{
+  text-align: center;
+}
+
 /* style untuk baris ganjil pada tabel */
 tr:nth-child(even) {
   background-color: #f2f2f2;
