@@ -1,0 +1,117 @@
+:root {
+    --primary: #F7B801;
+    --bg: #ffffff;
+}
+
+body{
+    padding-top: 80px;
+    margin: 0;
+    font-family: sans-serif;
+    background: var(--bg);
+}
+h3{
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none10
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 50px 5vw;
+}
+.content{
+    flex: 0 0 22%;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: 0.4s;
+    background: #f2f2f2;
+}
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+.gallery img{
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 10px;
+}
+p{
+    text-align: center;
+    color: #b2bec3;
+    padding: 0 8px;
+}
+h6{
+    margin: 20px;
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+li{
+    padding-top: 5px;
+}
+.fa{
+    font-size: 26px;
+    transition: .4s;
+    margin: 3px;
+}
+.checked{
+    color: var(--primary);
+}
+.fa:hover{
+    transform: scale(1.3);
+    transition: .6s;
+}
+button{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.beli{
+    background: var(--primary);
+    width: 100%;
+    height: 60px;
+}
+
+/* @media(max-width:1000px){
+    .content{
+        width: 45%;
+    }
+}
+@media(max-width:750px){
+    .content{
+        width: 100%;
+    }
+    .gallery{
+        margin: 50px 20px;
+    }
+} */
