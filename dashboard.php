@@ -13,12 +13,12 @@
 </header>
 
 <div class="sidebar">
-  <a href="#">Data Penjualan</a>
+  <a href="dashboard.php">Data Penjualan</a>
   <a href="#">Profil Toko</a>
 </div>
 
 <div class="content">
-  <h2>Data Penjualan</h2>
+  <h2>Data Penjualan</h2><br>
   
   <table>
     <thead>

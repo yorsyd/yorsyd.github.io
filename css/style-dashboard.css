@@ -1,57 +1,57 @@
- /* style untuk header */
- header {
-    background-color: #F7B801;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  /* style untuk sidebar */
-  .sidebar {
-    background-color: #f1f1f1;
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  
-  /* style untuk menu di sidebar */
-  .sidebar a {
-    display: block;
-    color: black;
-    padding: 16px;
-    text-decoration: none;
-  }
-  
-  /* style untuk menu ketika hover di sidebar */
-  .sidebar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* style untuk konten utama */
-  .content {
-    margin-left: 200px;
-    padding: 20px;
-  }
-  
-  /* style untuk tabel */
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  /* style untuk baris pada tabel */
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  /* style untuk baris ganjil pada tabel */
-  tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
+/* style untuk header */
+header {
+  background-color: #F7B801;
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+/* style untuk sidebar */
+.sidebar {
+  background-color: #f1f1f1;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* style untuk menu di sidebar */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* style untuk menu ketika hover di sidebar */
+.sidebar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* style untuk konten utama */
+.content {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+/* style untuk tabel */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* style untuk baris pada tabel */
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* style untuk baris ganjil pada tabel */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
