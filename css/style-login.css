@@ -32,8 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 3vh;
-  padding-top: 9%;
-  margin-top: 2%;
+  padding-top: 4%;
   margin-right: 10%;
   border-radius: 5px;
   width: 100%;
@@ -80,7 +79,7 @@ body {
 }
 
 .password {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 
@@ -95,7 +94,14 @@ input[type="password"] {
   border-color: var(--orange);
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
 
+a:hover{
+  color: rgb(25, 25, 99);
+}
 
 .overlap-group-container {
   display: flex;
@@ -113,7 +119,6 @@ input[type="password"] {
   background-color: var(--black);
   position: relative;
   margin-left: -10px;
-  margin-top: 20px;
   cursor: pointer;
 }
 
@@ -152,7 +157,6 @@ label .test {
 
 .overlap-group-contrainer {
   position: static;
-  margin-top: 10%;
   margin-left: 5%;
 }
 
@@ -173,6 +177,9 @@ h1,
   line-height: 100%;
   display: inline-block;
   /* atau display: block */
+}
+.eror p{
+
 }
 
 p,
