@@ -21,7 +21,7 @@ if( !isset($_SESSION["login"]) ){
 <body>
 	<!-- Navbar Start -->
 	<nav class="navbar">
-		<a href="index.html" class="navbar-logo"><img src="img/logo.png" alt=""></a>
+		<a href="index.php" class="navbar-logo"><img src="img/logo.png" alt=""></a>
 
 		<div class="navbar-nav">
 			<a href="catalog.html">Nike</a>
@@ -38,7 +38,7 @@ if( !isset($_SESSION["login"]) ){
 			<a href="" target="_blank"><img src="img/cart.png"> </a>
 		</div>
 		<div class="navbar-icon">
-			<a href="wishlist.html" target="_blank"><img src="img/love.png"></a>
+			<a href="wishlist.html"><img src="img/love.png"></a>
 		</div>
 	</nav>
 
