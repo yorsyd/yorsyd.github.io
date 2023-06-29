@@ -1,27 +1,4 @@
-<?php
-require 'connect.php';
-global $conn;
-if(isset($_POST["login"])){
-  $username = $_POST["username"];
-  $password = $_POST["password"];
 
- $result = mysqli_query($conn, "SELECT * FROM user WHERE username = '$username'");
-
-  //cek username
-  if(mysqli_num_rows($result) === 1){
-    //cek password
-    $row = mysqli_fetch_assoc($result);
-    if(password_verify($password,$row["password"])){
-      header("Location: index.html");
-      exit;
-    }
-  }
-
-  $error = true;
-
-}
-
-?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -57,8 +34,12 @@ if(isset($_POST["login"])){
                         <input type="password" placeholder="*******" name="password" required>
                       </div>
                       <a href="registrasi.php" class="belum">Belum punya akun?<a/>
-                      <?php if(isset($error)): ?>
-                      <p style = "margin-top: 10px;color : red; font-size: 1em ; font-style : italic;">username/ password salah</p>
+                      <?php 
+                      
+                      require "prosesLogin.php";
+                      if(isset($error)): ?>
+                      <p id = "error" style = "margin-top: 10px;color : red; font-size: 1em ; font-style : italic;">username/ password salah</p>
+                      <script src = "SCRIPT/login-pesanHilang.js"></script>
                       <?php endif;  ?>
                     </div>
                     <div class="overlap-group-contrainer">

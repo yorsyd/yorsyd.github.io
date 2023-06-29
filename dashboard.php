@@ -43,6 +43,12 @@
         <button type="submit" name="submit" value="Simpan"> simpan </button><br><br>
       </form>
     <?php
+   
+      session_start();
+      if( !isset($_SESSION["login"]) ){
+        header ("Location: login.php");
+        exit;
+      }
       include "connect.php"; // Koneksi ke database
       
       if(isset($_POST['submit'])){
