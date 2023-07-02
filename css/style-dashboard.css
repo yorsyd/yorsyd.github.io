@@ -42,12 +42,13 @@ header {
 table {
   border-collapse: collapse;
   width: 100%;
+  text-align: center;
 }
 
 /* style untuk baris pada tabel */
 td, th {
   border: 1px solid #dddddd;
-  text-align: left;
+  text-align: center;
   padding: 8px;
 }
 
@@ -58,4 +59,9 @@ th{
 /* style untuk baris ganjil pada tabel */
 tr:nth-child(even) {
   background-color: #f2f2f2;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
 }
