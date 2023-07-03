@@ -21,14 +21,9 @@
 </head>
 
 <body class="">
-
-
-
-    <nav class="navbar">
-
+    <?php include 'navbar.php'?>
+    <!-- <nav class="navbar">
         <a href="#" class="navbar-logo"><img src="img/logo.png" alt=""></a>
-
-
 
         <div class="navbar-nav">
 
@@ -68,7 +63,7 @@
 
         </div>
 
-    </nav>
+    </nav> -->
 
 
 
@@ -100,8 +95,7 @@
 
     </div>
 
-
-
+    <?php include 'footer.php'?>
     <script src="SCRIPT/catalog-cart.js"></script>
 
 </body>

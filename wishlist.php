@@ -14,27 +14,7 @@
     <body>
 
     <!-- Catalog -->
-    <nav class="navbar">
-        <a href="index.html" class="navbar-logo"><img src="img/logo.png" alt=""></a>
-  
-        <div class="navbar-nav">
-            <a href="catalog.html">Nike</a>
-            <a href="catalog.html">Converse</a>
-            <a href="catalog.html">new Balance</a>
-            <a href="catalog.html">Vans</a>
-        </div>
-  
-        <div class="navbar-login">
-          <a href="login.html" target="_blank">masuk</a>
-        </div>
-  
-      <div class="navbar-icon">
-          <a href="" target="_blank"><img src="img/cart.png">  </a>
-      </div>
-      <div class="navbar-icon">
-          <a href="" target="_blank"><img src="img/love.png"></a>
-      </div>
-    </nav>
+    <?php include 'navbar.php'?>
 
         <div class="gallery">
 
@@ -151,5 +131,7 @@
             </div>
 
         </div>
+
+        <?php include 'footer.php'?>
     </body>
 </html>

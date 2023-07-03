@@ -16,31 +16,14 @@ if( !isset($_SESSION["login"]) ){
 
 	<link rel="stylesheet" type="text/css" href="css/style-home.css">
 	<link rel="stylesheet" type="text/css" href="css/style-main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+	integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+
+	<link rel="stylesheet" href="css/style-catalog-cart.css">
 </head>
 
 <body>
-	<!-- Navbar Start -->
-	<nav class="navbar">
-		<a href="index.html" class="navbar-logo"><img src="img/logo.png" alt=""></a>
-
-		<div class="navbar-nav">
-			<a href="catalog.html">Nike</a>
-			<a href="catalog.html">Converse</a>
-			<a href="catalog.html">new Balance</a>
-			<a href="catalog.html">Vans</a>
-		</div>
-
-		<div class="navbar-login">
-			<a href="logout.php" target="">logut</a>
-		</div>
-
-		<div class="navbar-icon">
-			<a href="" target="_blank"><img src="img/cart.png"> </a>
-		</div>
-		<div class="navbar-icon">
-			<a href="wishlist.html" target="_blank"><img src="img/love.png"></a>
-		</div>
-	</nav>
+	<?php include 'navbar.php'?>
 
 	<div class="first" id="home">
 		<main class="content">
@@ -146,12 +129,7 @@ if( !isset($_SESSION["login"]) ){
 		</div>
 	</div>
 
-	<div class="footer">
-		<footer>@copyright <b>urbane threads</b> 2023</footer>
-		<a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png"></a>
-		<a href="https://www.twitter.com" target="_blank"><img src="img/twitter.png"></a>
-		<a href="https://www.tiktok.com/foryou" target="_blank"><img src="img/tiktok.png"></a>
-	</div>
+	<?php include 'footer.php'?>
 </body>
 
 </html>
