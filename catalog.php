@@ -29,6 +29,6 @@
         </div>
     </div>
     <?php include 'footer.php'?>
-    <script src="SCRIPT/catalog-cart.js"></script>
+    <script src="SCRIPT/catalog.js"></script>
 </body>
 </html
