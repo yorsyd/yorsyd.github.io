@@ -17,27 +17,75 @@ closeShoppingBtn.addEventListener('click', () => {
 let products = [
     {
         id: 1,
-        name: "Converse Jhon Varatos Black Low",
-        image: 'Converse/converse1.png',
-        price: 849000
+        name: 'KAOS',
+        image: 'kaos.png',
+        price: 150000
     },
     {
         id: 2,
-        name: "Converse CT All Star High Black",
-        image: 'Converse/converse2.png',
-        price: 1059000
+        name: 'KEMEJA',
+        image: 'kemeja.png',
+        price: 200000
     },
     {
         id: 3,
-        name: "Converse CT All Star Low Pink",
-        image: 'Converse/converse3.png',
-        price: 1250000
+        name: 'CELANA',
+        image: 'celana.png',
+        price: 180000
     },
     {
         id: 4,
-        name: "Converse CT All Star High White",
-        image: 'Converse/converse4.png',
-        price: 1199000
+        name: 'SEPATU',
+        image: 'sepatu.png',
+        price: 250000
+    },
+    {
+        id: 5,
+        name: 'KAOS',
+        image: 'kaos.png',
+        price: 150000
+    },
+    {
+        id: 6,
+        name: 'KEMEJA',
+        image: 'kemeja.png',
+        price: 200000
+    },
+    {
+        id: 7,
+        name: 'CELANA',
+        image: 'celana.png',
+        price: 180000
+    },
+    {
+        id: 8,
+        name: 'SEPATU',
+        image: 'sepatu.png',
+        price: 250000
+    },
+    {
+        id: 9,
+        name: 'KAOS',
+        image: 'kaos.png',
+        price: 150000
+    },
+    {
+        id: 10,
+        name: 'KEMEJA',
+        image: 'kemeja.png',
+        price: 200000
+    },
+    {
+        id: 11,
+        name: 'CELANA',
+        image: 'celana.png',
+        price: 180000
+    },
+    {
+        id: 12,
+        name: 'SEPATU',
+        image: 'sepatu.png',
+        price: 250000
     },
 ];
 

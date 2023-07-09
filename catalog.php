@@ -1,34 +1,103 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         <title>Document</title>
+
     <link rel="stylesheet" href="css/style-catalog-cart.css">
+
     <!-- <link rel="stylesheet" href="css/style-catalog.css"> -->
+
     <link rel="stylesheet" href="css/style-main.css">
+
 </head>
+
 <body class="">
     <?php include 'navbar.php'?>
+    <!-- <nav class="navbar">
+        <a href="#" class="navbar-logo"><img src="img/logo.png" alt=""></a>
 
-    <div class="container">
-        <div class="list">
+        <div class="navbar-nav">
+
+            <a href="catalog.html">Nike</a>
+
+            <a href="#wanita">Converse</a>
+
+            <a href="#anak">new Balance</a>
+
+            <a href="#bayi">Vans</a>
 
         </div>
+
+
+
+        <div class="navbar-login">
+
+            <a href="login.php" target="_blank">masuk</a>
+
+        </div>
+
+
+
+        <div class="shopping">
+
+            <img src="img/cart.png">
+
+            <span class="quantity">0</span>
+
+        </div>
+
+
+
+        <div class="navbar-icon">
+
+            <a href="" target="_blank"><img src="img/love.png"></a>
+
+        </div>
+
+    </nav> -->
+
+
+
+    <div class="container">
+
+        <div class="list">
+
+
+
+        </div>
+
     </div>
 
     <div class="card">
+
         <h1>Card</h1>
+
         <ul class="listCard">
+
         </ul>
+
         <div class="checkOut">
+
             <div class="total">0</div>
+
             <div class="closeShopping">Close</div>
+
         </div>
+
     </div>
+
     <?php include 'footer.php'?>
-    <script src="SCRIPT/catalog.js"></script>
+    <script src="SCRIPT/catalog-cart.js"></script>
+
 </body>
+
 </html

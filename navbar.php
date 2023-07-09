@@ -18,10 +18,10 @@
         <nav class="navbar">
             <a href="index.php" class="navbar-logo"><img src="img/logo.png" alt=""></a>
             <div class="navbar-nav">
-                <a href="nike.php">Nike</a>
-                <a href="converse.php">Converse</a>
-                <a href="newBalance.php">new Balance</a>
-                <a href="vans.php">Vans</a>
+                <a href="catalog.php">Nike</a>
+                <a href="catalog.php">Converse</a>
+                <a href="catalog.php">new Balance</a>
+                <a href="catalog.php">Vans</a>
             </div>
 
             <div class="navbar-login">
