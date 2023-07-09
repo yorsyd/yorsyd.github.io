@@ -29,6 +29,6 @@
         </div>
     </div>
     <?php include 'footer.php'?>
-    <script src="SCRIPT/catalog.js"></script>
+    <script src="SCRIPT/converse.js"></script>
 </body>
 </html
