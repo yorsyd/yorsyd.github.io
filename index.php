@@ -59,25 +59,25 @@ if( !isset($_SESSION["login"]) ){
 			<h2>Kategori</h2>
 		</div>
 		<div class="kotak">
-			<a href="catalog.html">
+			<a href="nike.php">
 				<img src="img/nikeCategory.jpg" alt="pria">
 				<button class="btn">Nike</button>
 			</a>
 		</div>
 		<div class="kotak">
-			<a href="catalog.html">
+			<a href="converse.php">
 				<img src="img/converseCategory.jpg">
 				<button class="btn">Converse</button>
 			</a>
 		</div>
 		<div class="kotak">
-			<a href="catalog.html">
+			<a href="newBalance.php">
 				<img src="img/newbalanceCategory.jpg">
 				<button class="btn">New Balance</button>
 			</a>
 		</div>
 		<div class="kotak">
-			<a href="catalog.html">
+			<a href="vans.php">
 				<img src="img/vansCategory.jpg">
 				<button class="btn">Vans</button>
 			</a>
