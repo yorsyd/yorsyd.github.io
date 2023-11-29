@@ -59,8 +59,8 @@
         $harga = $_POST['harga'];
         $total = bcmul($jumlah, $harga); // Hitung total harga
 
-        // Query untuk insert data ke tabel penjualanbarang
-        $query = "INSERT INTO penjualanbarang (nama, jumlah, harga, total) VALUES ('$nama', '$jumlah', '$harga', '$total')";
+        // Query untuk insert data ke tabel jual1
+        $query = "INSERT INTO jual1 (nama, jumlah, harga, total) VALUES ('$nama', '$jumlah', '$harga', '$total')";
 
         if(mysqli_query($conn, $query)){
           echo "Data berhasil disimpan";
@@ -70,7 +70,7 @@
       
       }
 
-      $query = mysqli_query($conn, "SELECT * FROM penjualanbarang ORDER BY id ASC LIMIT 10");
+      $query = mysqli_query($conn, "SELECT * FROM jual1 ORDER BY id ASC LIMIT 10");
         while ($data = mysqli_fetch_array($query)) {
             echo "<tr>";
             echo "<td style='text-align: center;'>" . $data['id'] . "</td>";
